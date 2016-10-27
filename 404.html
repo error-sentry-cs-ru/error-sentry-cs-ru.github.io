@@ -27,9 +27,9 @@ Body:----------en--
   <!--#if expr="-n v('HTTP_REFERER')" -->
 
     The link on the
-    <a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">referring
+    <a href="<!--#echo encoding="url" var='HTTP_REFERER' -->">referring
     page</a> seems to be wrong or outdated. Please inform the author of
-    <a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">that page</a>
+    <a href="<!--#echo encoding="url" var='HTTP_REFERER' -->">that page</a>
     about the error.
 
   <!--#else -->
